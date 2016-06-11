@@ -32,7 +32,6 @@ namespace SuperHero
          * @string[] superPowers
          */
 
-
         private void _generateRandomPowers()
         {
             string[] superPowers = { "Super Speed", "Super Strength", "Body Armour", "Flight", "Fire Generation", "Weather Control", "Telepathy", "Mind Control", "Control Time", "Telekenesis", "Power of Flight", "Shapeshifting" };
@@ -64,6 +63,8 @@ namespace SuperHero
         /**
          * The method below shows all the magic, it displays the user's superhero abilities, and formats the the output to the console
          * @method public ShowPowers
+         * Description: Displays output rellating to the superhero class to the console
+         * 
          */
         public void ShowPowers() //Displays	the	Hero’s	superpowers to	the	console
         {
@@ -76,7 +77,7 @@ namespace SuperHero
             Console.WriteLine(AwesomeOutput);
             foreach (string ability in _superPowers)
             {
-                Console.WriteLine("{0}. {1}\n{2}", pFactor + 1, ability, AwesomeOutput); //displays numbered list of powers with visual flair
+                Console.WriteLine("{0}. {1}\n{2}", pFactor + 1, ability, AwesomeOutput); 
                 pFactor++;
             }
             Console.WriteLine(AwesomeOutput);

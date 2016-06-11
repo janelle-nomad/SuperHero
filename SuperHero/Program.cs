@@ -20,7 +20,7 @@ namespace SuperHero
     * into the mix, to see the synchronization, and simplicity that the concept of "Inheritance" brings to Object Oriented
     * Programming
     * </summary>
-    * Version 0.4 - Corrected syntax within the Hero method
+    * Version 0.5 - Formatted the program.cs, got rid of unecessary whitespace gaps, to enhance readability
     */
      public class Program
     {
