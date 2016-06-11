@@ -20,9 +20,9 @@ namespace SuperHero
     * into the mix, to see the synchronization, and simplicity that the concept of "Inheritance" brings to Object Oriented
     * Programming
     * </summary>
-    * Version 0.1 - Defined Super Hero Assignment fixed random generator method: _generateRandomPowers
+    * Version 0.2 - Corrected the program headers
     */
-    public class Program
+     class Program
     {
         /**
          * the main method for our driver class Program
