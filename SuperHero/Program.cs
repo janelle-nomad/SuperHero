@@ -20,7 +20,7 @@ namespace SuperHero
     * into the mix, to see the synchronization, and simplicity that the concept of "Inheritance" brings to Object Oriented
     * Programming
     * </summary>
-    * Version 0.3 - Corrected spelling errors in the Hero class
+    * Version 0.4 - Corrected syntax within the Hero method
     */
      public class Program
     {
@@ -39,7 +39,7 @@ namespace SuperHero
             superheroName = Console.ReadLine();
 
             SuperHero userSuperHero = new SuperHero(superheroName); //creates a new SuperHero instance with user input as the hero's name
-            userSuperHero.Fight(); //Inherits the Fight method from the Hero Class
+            userSuperHero.fight(); //Inherits the Fight method from the Hero Class
         }
     }
 }

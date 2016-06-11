@@ -128,17 +128,17 @@ namespace SuperHero
             return dmgDealt; //sends final damage result with modifiers
         }
 
-        /**PUBLIC METHODS
+        /*Public Methods
          * 
-         * @methods: fight method; show method 
+         * @methods: fight method; Show method 
          */
 
         // method to start a fight
-        public void Fight()
+        public void fight()
         {
             _hitAttempt(); //calls hitAttempt method
         }
-        public void show() // method to show character's current stats
+        public void show() // method to Show character's current stats
         {
             Console.WriteLine("_________________________");
             Console.WriteLine();
