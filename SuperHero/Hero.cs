@@ -134,7 +134,7 @@ namespace SuperHero
          */
 
         // method to start a fight
-        public void fight()
+        public void Fight()
         {
             _hitAttempt(); //calls hitAttempt method
         }
