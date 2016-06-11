@@ -37,10 +37,10 @@ namespace SuperHero
             string[] superPowers = { "Super Speed", "Super Strength", "Body Armour", "Flight", "Fire Generation", "Weather Control", "Telepathy", "Mind Control", "Control Time", "Telekenesis", "Power of Flight", "Shapeshifting" };
             Random rnd = new Random(); //Created a random generator, for choosing 3 superhero abilities
             int numbOfPowers = 3; //assigns number of super powers, there is only a limit of 3
-            int holder; //t
+            int holder; //holds the superpower index of each value with the array, this variable might be overkill, but I added it anyway just in case the super power isn't called, this only happend during testing the random power generator, when you dont call an index variable 
 
             /* Created a basic loop with the _generateSuperPowers method generates 
-             * three random powers from the 
+             * three random powers from the superpowers string array
              */
 
             while (numbOfPowers > 0) /*Uses random number to choose and assign SuperPower a value from superPowers list*/
